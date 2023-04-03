@@ -85,6 +85,18 @@ class MyFormState extends State<TestScreen>{
               print('ID: $id, Password: $password');
             }
           }, child: Text('login')),
+          ElevatedButton(onPressed: (){
+            //테스트용 알림창 코드
+            showDialog(context: context,barrierDismissible: false, builder: (BuildContext Context){
+              return AlertDialog(
+                title: Text("Dialog title"),
+                content: Text("회원가입 클릭"),
+                actions: [
+                  TextButton(onPressed: (){Navigator.of(context).pop();}, child: Text("OK"))
+                ],
+              );
+            });//테스트용 알림창 코드
+          }, child: Text('회원가입')),
         ],
       );
     }
