@@ -11,7 +11,7 @@ class JoinPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar:AppBar( title: Text("JoinPage"),),
+            appBar:AppBar( title: Text("회원가입"),),
             body: SafeArea(
               child: Center(
                 child: SingleChildScrollView(
@@ -19,7 +19,7 @@ class JoinPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                           SizedBox(
-                            width: 500, height: 500,
+                            width: 350, height: 500,
                             child: Column(
                             children: [
                               Form(
@@ -27,28 +27,28 @@ class JoinPage extends StatelessWidget {
                                 children: [
                                   TextFormField(
                                     decoration: InputDecoration(
-                                        labelText: 'ID'
+                                        labelText: '아이디'
                                     ),
 
                                   ),
                                   SizedBox(height: 10,),
                                   TextFormField(
                                     decoration: InputDecoration(
-                                        labelText: 'Password'
+                                        labelText: '비밀번호'
                                     ),
                                   ),
 
                                   SizedBox(height: 10,),
                                   TextFormField(
                                     decoration: InputDecoration(
-                                        labelText: 'Password_Check'
+                                        labelText: '비밀번호 확인'
                                     ),
 
                                   ),
                                   SizedBox(height: 10,),
                                   TextFormField(
                                     decoration: InputDecoration(
-                                        labelText: 'User_Name'
+                                        labelText: '닉네임'
                                     ),
 
                                   ),
@@ -57,7 +57,7 @@ class JoinPage extends StatelessWidget {
                               ),
                             ),
                             ElevatedButton(onPressed: ()=>Get.offAllNamed('/')
-                              , child: Text('join'),
+                              , child: Text('회원가입'),
                               style: ElevatedButton.styleFrom(
                                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                                   minimumSize: Size(500,50)

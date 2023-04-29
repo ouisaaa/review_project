@@ -39,10 +39,9 @@ class MainPage extends StatelessWidget {
           itemCount: 50,
           itemBuilder: (context,index){
             return Center(
-
                 child: Column(
                     children: [
-                      Text('index $index',style: Theme.of(context).textTheme.headlineSmall,)
+                      Text('item $index',style: Theme.of(context).textTheme.headlineSmall,)
                     ]
                 )
             );
@@ -66,11 +65,11 @@ class MainPage extends StatelessWidget {
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 1),
             )),
             Flexible( child: Center(
-                child: Row(mainAxisAlignment: MainAxisAlignment.center,
+                child: Column(mainAxisAlignment: MainAxisAlignment.center,
               children:[
                 SizedBox(height: 10,),
                 ElevatedButton(onPressed: (){},
-                  child: Text('검색'),
+                  child: Text('음식점 검색'),
                   style: ElevatedButton.styleFrom(
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                       minimumSize: Size(240,50)
@@ -79,7 +78,7 @@ class MainPage extends StatelessWidget {
                 ),
                 SizedBox(width: 20,height: 10,),//간격
                 ElevatedButton(onPressed: (){}
-                  , child: Text('지도'),
+                  , child: Text('지도로 찾아보기'),
                   style: ElevatedButton.styleFrom(
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                       minimumSize: Size(240,50)
