@@ -8,7 +8,15 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final _formKey= GlobalKey<FormState>();
     String? id,password;
-
+    /****
+     * 반응형 사이즈 설정하는 변수
+    //bool isWeb;
+    //double pageWidth;
+    //double flexibleMedaiQueryData= MediaQueryData.fromWindow(WidgetsBinding.instance.window).size.width;
+    //const double mobileWidth=700;
+    //pageWidth = MediaQuery.of(context).size.width;
+    //isWeb = pageWidth > mobileWidth ? true : false;
+    *****/
     return Scaffold(
           appBar:AppBar( title: Text("로그인"),),
           body: SafeArea(
@@ -18,7 +26,7 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children:[
                   SizedBox(
-                  width: 350,
+                  width: 500,
                   height: 500,
                   child: Column(
                     children: [
