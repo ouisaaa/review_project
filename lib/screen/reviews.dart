@@ -17,13 +17,13 @@ class testScreen extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: ReviewPage(),
+      home: ReviewsPage(),
     );
   }
 }
 //테스트 코드
 
-class ReviewPage extends StatelessWidget {
+class ReviewsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

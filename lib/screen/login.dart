@@ -53,6 +53,7 @@ class LoginPage extends StatelessWidget {
                           _formKey.currentState?.save();
                           print('ID: $id, Password: $password');
                         }
+                        Get.offAllNamed('/'); //메인페이지 이동
                       }, child: Text('로그인'),
                         style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
