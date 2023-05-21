@@ -30,9 +30,9 @@ class ReviewsPage extends StatelessWidget {
         length: 4,
         child: Scaffold(
             appBar:AppBar(
-                title: Text('main'),
+                title: Text('ㅁㅁ음식점'),
                 bottom: TabBar(
-                  tabs: [Tab(text: 'test1'),Tab(text:'test2'),Tab(text:'text3'),Tab(text:'text4')],
+                  tabs: [Tab(text: '정보'),Tab(text:'리뷰'),Tab(text:'길찾기'),Tab(text:'공유')],
                 )
             ),
 
@@ -46,54 +46,9 @@ class ReviewsPage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                SizedBox(
-                                  width: 350, height: 500,
-                                  child: Column(
-                                    children: [
-                                      Form(
-                                        child: Column(
-                                          children: [
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '아이디'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호'
-                                              ),
-                                            ),
-
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호 확인'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '닉네임'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                          ],
-                                        ),
-                                      ),
-                                      ElevatedButton(onPressed: ()=>Get.offAllNamed('/')
-                                        , child: Text('회원가입'),
-                                        style: ElevatedButton.styleFrom(
-                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                                            minimumSize: Size(500,50)
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
+                                  Text(
+                                    "test screen1",style: TextStyle(fontSize: 20),
+                                  )
                               ],
                             ),
                           ),
@@ -103,54 +58,9 @@ class ReviewsPage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                SizedBox(
-                                  width: 350, height: 500,
-                                  child: Column(
-                                    children: [
-                                      Form(
-                                        child: Column(
-                                          children: [
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '아이디'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호'
-                                              ),
-                                            ),
-
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호 확인'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '닉네임'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                          ],
-                                        ),
-                                      ),
-                                      ElevatedButton(onPressed: ()=>Get.offAllNamed('/')
-                                        , child: Text('회원가입'),
-                                        style: ElevatedButton.styleFrom(
-                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                                            minimumSize: Size(500,50)
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
+                                Text(
+                                  "test screen2",style: TextStyle(fontSize: 20),
+                                )
                               ],
                             ),
                           ),
@@ -160,54 +70,9 @@ class ReviewsPage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                SizedBox(
-                                  width: 350, height: 500,
-                                  child: Column(
-                                    children: [
-                                      Form(
-                                        child: Column(
-                                          children: [
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '아이디'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호'
-                                              ),
-                                            ),
-
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호 확인'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '닉네임'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                          ],
-                                        ),
-                                      ),
-                                      ElevatedButton(onPressed: ()=>Get.offAllNamed('/')
-                                        , child: Text('회원가입'),
-                                        style: ElevatedButton.styleFrom(
-                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                                            minimumSize: Size(500,50)
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
+                                Text(
+                                  "test screen3",style: TextStyle(fontSize: 20),
+                                )
                               ],
                             ),
                           ),
@@ -217,54 +82,9 @@ class ReviewsPage extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                SizedBox(
-                                  width: 350, height: 500,
-                                  child: Column(
-                                    children: [
-                                      Form(
-                                        child: Column(
-                                          children: [
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '아이디'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호'
-                                              ),
-                                            ),
-
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '비밀번호 확인'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                            TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText: '닉네임'
-                                              ),
-
-                                            ),
-                                            SizedBox(height: 10,),
-                                          ],
-                                        ),
-                                      ),
-                                      ElevatedButton(onPressed: ()=>Get.offAllNamed('/')
-                                        , child: Text('회원가입'),
-                                        style: ElevatedButton.styleFrom(
-                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                                            minimumSize: Size(500,50)
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
+                                Text(
+                                  "test screen4",style: TextStyle(fontSize: 20),
+                                )
                               ],
                             ),
                           ),

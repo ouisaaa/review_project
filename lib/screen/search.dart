@@ -48,10 +48,11 @@ class SearchPage extends StatelessWidget {
       appBar:AppBar( title: Text("검색창"),),
       body: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Form(child: TextFormField(decoration: InputDecoration(labelText: '찾고자하는 음식점을 검색해주세요')),),
-                Expanded(
+                /** 검색 결과 창
+                 * Expanded(
                     child:
                     ListView.separated(
                         itemCount: store.length,
@@ -71,7 +72,7 @@ class SearchPage extends StatelessWidget {
                       //리스트 경계선
                       separatorBuilder: (context, index) { return Divider(height: 2, color: Colors.black,); },
                     ),
-                ),
+                ),**/
                 //SizedBox(height: 10,),
               ],
             ),
