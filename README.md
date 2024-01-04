@@ -1,3 +1,7 @@
+# 캡스톤 프로젝트(미완성)
+### one_click
+음식점 리뷰를 한번의 클릭으로 전부 볼수있으며 해당 기능으로 사용자에게 음식점 선택에 조금더 도움이 될수있는 앱
+
 # flutter_project
 
 A new Flutter project.
